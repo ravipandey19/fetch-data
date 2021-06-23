@@ -14,7 +14,7 @@ jobs:
       uses: ./
       with:
         file: 'testfile.json'
-        url: 'https://fake-movie-database-api.herokuapp.com/api?s=batman'
+        url: 'https://cdn.contentful.com/spaces/oveaw8c9vpyp/environments/sandbox/content_types?access_token=v7FnV2SbIHbaJ212yc4qMnGW5oPfdyUpc1C9I_Sumc4'
       
     - name: list files
       run: ls
